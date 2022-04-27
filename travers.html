@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse</title>
+</head>
+<script src="jquery-3.6.0.min.js"></script>
+<body>
+    <div class="b1">
+        <p>Lnam eum dolorum impedit? Labore, iure!</p>
+        <h1>GREEN ONE IS AWESOME</h1>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </div>
+
+    <script>
+        $('.b1').mouseenter(function(){
+            $(this).children().css({"background-color":"green"})
+        })
+    </script>
+</body>
+</html>
